@@ -1,0 +1,9 @@
+#Ant properties
+#Tue Dec 22 07:50:51 CET 2015
+builddate=20151222 0750
+description=hactweaks
+name=hactweaks
+releasedate=20150915 1445
+vendor=hybris
+version=5.7.0.4
+version.api=5.7.0
