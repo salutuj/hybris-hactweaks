@@ -1,0 +1,8 @@
+gensrc/
+classes/
+platformhome.properties
+resources/hactweaks/hactweaks-testclasses.xml
+resources/items.xsd
+extensioninfo.xsd
+build.xml
+resources/beans.xsd

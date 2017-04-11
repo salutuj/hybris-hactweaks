@@ -13,14 +13,14 @@
   
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
 
-   <extension abstractclassprefix="Generated" classprefix="Hactweaks" managername="HactweaksManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="hactweaks" usemaven="false">
+   <extension name="hactweaks" classprefix="HacTweaks" abstractclassprefix="Generated" managersuperclass="de.hybris.platform.jalo.extension.Extension" usemaven="false">
       <!-- for more information on maven managed libraries please consult https://wiki.hybris.com/x/Nq8sDQ -->
                
       <!-- you should add all required extensions to this list, except platform extensions which are automatically required -->         
-      <!-- <requires-extension name="cms"/> -->         
+      <requires-extension name="commerceservices"/>         
       
 
-      <coremodule generated="true" manager="eu.pawelniewiadomski.java.hybris.hactweaks.jalo.HactweaksManager" packageroot="eu.pawelniewiadomski.java.hybris.hactweaks"/>
+      <coremodule generated="true" manager="eu.pawelniewiadomski.java.hybris.hactweaks.jalo.HacTweaksManager" packageroot="eu.pawelniewiadomski.java.hybris.hactweaks"/>
 
       <webmodule jspcompile="false" webroot="/hactweaks"/>
 					
