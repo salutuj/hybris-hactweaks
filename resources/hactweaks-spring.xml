@@ -53,6 +53,8 @@
 	      	            !execution(* getPK(..))" />  	            
 	       <aop:pointcut id="profiledMethods" expression="execution(* *(..))" />	
 	  -->
+		
+	<bean id="hacInitUpdateModeFinderAspect" class="eu.pawelniewiadomski.java.hybris.hactweaks.aspects.HacInitUpdateModeFinderAspect" />
 	
 			
 			

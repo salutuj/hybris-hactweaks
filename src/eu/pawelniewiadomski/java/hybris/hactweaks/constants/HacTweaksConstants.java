@@ -25,5 +25,5 @@ public final class HacTweaksConstants extends GeneratedHacTweaksConstants
 		//empty to avoid instantiating this constant class
 	}
 
-	// implement here constants used by this extension
+	public static final int MODE_ARG_INDEX = 1;
 }
